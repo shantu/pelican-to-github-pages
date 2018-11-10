@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+{% block meta_tag %}
+ {% if page.finance %}
+	<meta property="og:title" content="SaaS Vendor Management | Spend Management for Finance | Applogie">
+	<meta property="og:description" content="With Applogie's SaaS vendor management solution, finance teams gain insight into their monthly payments, budget, utilization and pending renewals.">
+    <title>SaaS Vendor Management | Spend Management for Finance | Applogie</title>
+ {% endif %}
+ {% if page.operations %}
+    <meta property="og:title" content="Spend Management Solutions for Operations | Applogie">
+	<meta property="og:description" content="Applogie's spend management solutions help operations teams view all their cloud subscription costs to identify areas of potential savings.">
+    <title>Spend Management Solutions for Operations | Applogie</title>
+ {% endif %}
+ {% if page.it %}
+    <meta property="og:title" content="Spend Management Software for IT | SaaS Vendor Management | Applogie">
+    <meta property="og:description" content="Applogie's spend management software provides insight into each vendor’s contract language, licensing terms, pricing structure, and more!">
+    <title>Spend Management Software for IT | SaaS Vendor Management | Applogie</title>
+ {% endif %}
+ {% if page.howitworks %}
+    <meta property="og:title" content="Software License Management | How It Works | Applogie">
+    <meta property="og:description" content="Applogie's subscription management software provides visibility into the value of your cloud-based services to identify areas of potential savings.">
+    <title>Software License Management | How It Works | Applogie</title>
+ {% endif %}
+ {% if page.features %}
+    <meta property="og:title" content="Software License Management Platform | Features | Applogie">
+    <meta property="og:description" content="With a software license management platform, you can view all your cloud subscriptions to better understand their value, pricing, renewal details and more!">
+    <title>Spend Analysis Tools | Features | Applogie</title>
+ {% endif %}
+ {% if page.pricing %}
+    <meta property="og:title" content="Spend Management Solutions | Pricing | Applogie">
+    <meta property="og:description" content="Check out our pricing to learn how investing in our spend management solution will help you minimize costs and achieve business goals.">
+    <title>Spend Management Solutions | Pricing | Applogie</title>
+ {% endif %}
+ {% if page.about %}
+    <meta property="og:title" content="About | Cost Management Software | Applogie">
+    <meta property="og:description" content="Meet our team and the creators behind the industry's leading cost management software. Contact us and start managing your organization’s SaaS expenses.">
+    <title>About | Cost Management Software | Applogie</title>
+ {% endif %}
+ {% if page.casestudy %}
+    <meta property="og:title" content="U Inc Case Study | SaaS Platform Saves Time and Money on SaaS Costs | Applogie">
+    <meta property="og:description" content="U, Inc. saves over $15,000 in annual SaaS costs in two months with Applogie’s subscription management software.">
+    <title>U Inc Case Study | SaaS Platform Saves Time and Money on SaaS Costs | Applogie</title>
+ {% endif %}
+ {% if page.blogs %}
+    <meta property="og:title" content="Blog and Newsletter | Subscription Management Software | Applogie">
+    <meta property="og:description" content="Industry news, tips for eliminating subscription management challenges, ways to save on your organization’s SaaS expenses and more!">
+    <title>Blog and Newsletter | Subscription Management Software | Applogie</title>
+ {% endif %}
+ {% if page.termsofuse %}
+    <meta property="og:title" content="Terms of Use | Applogie Terms of Use | Applogie">
+    <meta property="og:description" content="Applogie Terms of Use">
+    <title>Terms of Use | Applogie Terms of Use | Applogie</title>
+ {% endif %}
+ {% if page.privacypolicy %}
+    <meta property="og:title" content="Privacy Policy | Applogie Privacy Policy | Applogie">
+    <meta property="og:description" content="Applogie Privacy Policy">
+    <title>Privacy Policy | Applogie Privacy Policy | Applogie</title>
+ {% endif %}
+ {% if page.termsofservice %}
+    <meta property="og:title" content="Terms of Service | Applogie Terms of Service | Applogie">
+    <meta property="og:description" content="APPLOGIE CUSTOMER SOFTWARE SERVICES AGREEMENT">
+    <title>Terms of Service | Applogie Terms of Service | Applogie</title>
+ {% endif %}
+{% endblock %}
+{% block main %}
+    {% if page.finance %}{% include 'includes/finance.html' %}{% endif %}
+    {% if page.operations %}{% include 'includes/operations.html' %}{% endif %}
+    {% if page.it %}{% include 'includes/it.html' %}{% endif %}
+    {% if page.howitworks %}{% include 'includes/howitworks.html' %}{% endif %}
+    {% if page.features %}{% include 'includes/features.html' %}{% endif %}
+    {% if page.pricing %}{% include 'includes/pricing.html' %}{% endif %}
+    {% if page.about %}{% include 'includes/about.html' %}{% endif %}
+    {% if page.termsofuse %}{% include 'includes/termsofuse.html' %}{% endif %}
+    {% if page.privacypolicy %}{% include 'includes/privacypolicy.html' %}{% endif %}
+    {% if page.termsofservice %}{% include 'includes/termsofservice.html' %}{% endif %}
+    {% if page.blogs %}{% include 'article_list.html' %}{% endif %}
+    {% if page.finance or page.operations or page.it or page.howitworks or page.features or page.pricing or page.about %}
+        {% include 'includes/requestdemo.html' %}
+    {% endif %}
+{% endblock main %}

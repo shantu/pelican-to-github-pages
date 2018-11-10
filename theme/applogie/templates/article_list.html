@@ -1,0 +1,93 @@
+{% block main %}
+<div id="myCarousel" class="carousel slide small-header">
+    <div class="carousel-inner">
+        <div class="item active">
+            <img class="visible-lg" src="{{ SITEURL }}/theme/images/Blog_Hero.png" alt="Blog Page Hero">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Applogie Blog</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="separator hidden-lg hidden-md">&nbsp;</div>
+<div id="blog">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-offset-1 col-lg-3 text-right blog-highlight">
+                <section class="bs4-newsletter">
+                    <h4 class="title">Sign up for Newsletter and Blog notifications</h4>
+                    <form id="id_hubspot_applogie" action="https://www.applogie.com:4321/requestDemo" method="post"
+                        data-toggle="validator" role="form" novalidate="true">
+                        <div class="form-group m-b-0">
+                            <input type="email" class="form-control input-subscribe" id="mce-EMAIL" name="email"
+                                placeholder="Enter e-mail address" data-error="Sorry!, that email address is invalid"
+                                required="">
+                        </div>
+                        <input type="hidden" name="first_name" value="">
+                        <input type="hidden" name="last_name" value="">
+                        <input type="hidden" name="company" value="">
+                        <input type="hidden" name="phone" value="">
+                        <input type="hidden" name="message" value="newsletter">
+                        <input type="hidden" name="timestamp" value="">
+                        <input type="hidden" name="startTime" value="">
+                        <input type="hidden" name="endTime" value="">
+                        <input type="hidden" name="type" value="TASK">
+                        <button type="submit" class="btn btn-outline-green btn-newsltr disabled">SIGN UP</button>
+                        <h5 class="text-light">
+                            You can un-subscribe at any time.
+                        </h5>
+                    </form>
+                </section>
+                <h2>Blog</h2>
+                <br>
+                <blockquote class="blockquote-reverse">SaaS Platform Saves Time and Money on SaaS Costs.</blockquote>
+            </div>
+            <div class="col-lg-offset-1 col-lg-7 blog-main">
+                {% if articles %} {% for article in (articles_page.object_list if articles_page else articles) %}
+                {% if article.category != 'case study' %}
+                <article>
+                    <div class="blog-post">
+                        <a href="{{ SITEURL }}/{{ article.url }}">
+                            <h3 class="blog-post-title">{{ article.title }}</h3>
+                        </a>
+                        <p class="blog-post-meta lead">
+                            {{ article.date }}&nbsp;by&nbsp;{{ article.author }}
+                        </p>
+                        <a href="{{ SITEURL }}/{{ article.url }}">
+                            <p class="lead">{{ article.info }}</p>
+                        </a>
+                    </div>
+                    <a href="{{ SITEURL }}/{{ article.url }}">
+                        <p class="lead">Read more</p>
+                    </a>
+                </article>
+                <hr>
+                {% endif %}
+                {% endfor %} {% endif %}
+            </div>
+            <!-- /.blog-sidebar -->
+        </div>
+    </div>
+</div>
+<div class="request-demo color-Greenish-Teal-1">
+    <div class="container">
+        <h1>Think you pay too much for SaaS?</h1>
+        <p>Click here to schedule a demo of the platform to learn how you probably do.</p>
+        <br>
+        <!-- <a type="button" target="_blank" class="btn btn-applogie-white" href="https://info.applogie.com/request-a-free-trial" role="button">FREE TRIAL</a> -->
+        <span id="hs-cta-wrapper-9635547d-3e21-46c0-9630-7ebffcb29b36">
+            <span id="hs-cta-9635547d-3e21-46c0-9630-7ebffcb29b36">
+                <!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]-->
+                <a type="button" target="_blank" class="btn btn-applogie-white" href="https://cta-redirect.hubspot.com/cta/redirect/4018109/9635547d-3e21-46c0-9630-7ebffcb29b36"
+                    target="_blank">FREE TRIAL</a>
+            </span>
+            <script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
+            <script type="text/javascript">
+                hbspt.cta.load(4018109, '9635547d-3e21-46c0-9630-7ebffcb29b36', {});
+            </script>
+        </span>
+    </div>
+</div>
+{% endblock main %}

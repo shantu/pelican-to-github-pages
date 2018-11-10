@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="68px" viewBox="0 0 72 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon / unlimited users</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="content_two_iconography" transform="translate(-229.000000, -311.000000)" stroke="#33A3AC">
+            <g id="features-wide" transform="translate(0.000000, 150.000000)">
+                <g id="feature-1" transform="translate(230.000000, 162.000000)">
+                    <g id="icon-/-unlimited-users">
+                        <g>
+                            <path d="M54.2853664,66 C46.0471147,66 39.3718042,59.3464865 39.3718042,51.1351351 C39.3718042,42.9237838 46.0471147,36.2702703 54.2853664,36.2702703 C62.5236182,36.2702703 69.1989287,42.9237838 69.1989287,51.1351351 C69.1989287,59.3464865 62.5236182,66 54.2853664,66 Z" id="Stroke-4216" stroke-width="2"></path>
+                            <path d="M53.688824,43.7027027 L53.688824,58.5675676" id="Stroke-4217" stroke-width="2" stroke-linecap="round"></path>
+                            <path d="M61.7421476,50.8378378 L46.8285853,50.8378378" id="Stroke-4218" stroke-width="2" stroke-linecap="round"></path>
+                            <polyline id="Stroke-4219" stroke-width="2" stroke-linecap="round" points="37.8732895 36.0960541 28.9311176 32.9030811 28.9311176 26.8203784"></polyline>
+                            <path d="M17.0014609,26.8245405 L17.0014609,32.9012973 L5.24659119,37.1021081 C2.43091064,38.104 0.596542488,40.7648108 0.596542488,43.7377838 L0.596542488,48.1615676 L31.9150231,48.1615676" id="Stroke-4220" stroke-width="2" stroke-linecap="round"></path>
+                            <path d="M22.9677806,28.7688649 C16.4624848,28.7688649 11.1920319,22.4572432 11.1920319,14.674 C11.1920319,6.89967568 16.4624848,0.594 22.9677806,0.594 C29.467111,0.594 34.7405466,6.89967568 34.7405466,14.674 C34.7405466,22.4572432 29.467111,28.7688649 22.9677806,28.7688649 Z" id="Stroke-4221" stroke-width="2" stroke-linecap="round"></path>
+                            <path d="M34.6471877,13.4095946 C34.2534697,13.4631081 33.928354,13.4274324 33.5316533,13.5077027 C29.519905,14.2747297 26.9458242,12.8268919 24.7356343,8.97391892 C23.41131,11.5039189 19.2742878,13.5077027 15.8710129,13.5077027 C14.1977112,13.5077027 12.7540784,13.1658108 11.3134283,12.4106757" id="Stroke-4222" stroke-width="2" stroke-linecap="round"></path>
+                            <path d="M42.3545167,0.594594595 C48.8568298,0.594594595 54.1272827,6.90027027 54.1272827,14.6745946 C54.1272827,22.4578378 48.8568298,28.7694595 42.3545167,28.7694595" id="Stroke-4223" stroke-width="2" stroke-linecap="round"></path>
+                            <path d="M54.0348186,13.4095946 C53.6411006,13.4631081 53.3159849,13.4274324 52.9192841,13.5077027 C48.9075359,14.2747297 46.3334551,12.8268919 44.1232652,8.97391892" id="Stroke-4224" stroke-width="2" stroke-linecap="round"></path>
+                            <path d="M48.3199416,31.8108108 L48.3199416,26.8221622" id="Stroke-4225" stroke-width="2" stroke-linecap="round"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

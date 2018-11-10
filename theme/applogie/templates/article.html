@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+{% block meta_tag %}
+<meta property="og:title" content="{{ article.title }} | SaaS Platform Saves Time and Money on SaaS Costs | Applogie">
+<meta property="og:description" content="{{ article.challenge }}">
+<title>{{ article.title }} | SaaS Platform Saves Time and Money on SaaS Costs | Applogie</title>
+{% endblock %}
+{% block main %}
+<div id="myCarousel" class="carousel slide small-header">
+    <div class="carousel-inner">
+        <div class="item active">
+            <img class="visible-lg" src="{{ SITEURL }}/theme/images/Blog_Hero.png" alt="">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>{{ article.title }}</h1>
+                    {% if article.category == 'case study' %}
+                    <p class="blog-post-meta">{{ article.info }}</p>
+                    {% endif %}
+                    {% if article.category == 'blog' %}
+                    <p class="blog-post-meta">{{ article.date }}&nbsp;by&nbsp;{{ article.author }}</p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<article id="blog">
+    <div class="container">
+        <div class="row">
+            {% if article.category == 'case study' %}
+            <div class="col-lg-8 blog-main">
+                <div class="blog-post">
+                    <h3>
+                        <b>{{ article.challenge }}</b>
+                    </h3>
+                    {{ article.content }}
+                </div>
+                <!-- /.blog-post -->
+            </div>
+            <div class="col-lg-3 col-sm-offset-1 blog-sidebar">
+                <div class="sidebar-module sidebar-module-inset">
+                    <br>
+                    <b>Client name</b>
+                    <br>
+                    <p>{{ article.clientname }}</p>
+                    <b>Location</b>
+                    <br>
+                    <p>{{ article.location }}</p>
+                    <b>Challenge</b>
+                    <br>
+                    <p>{{ article.challenge }}</p>
+                    <b>Solution</b>
+                    <br>
+                    <p>{{ article.solution }}</p>
+                    <b>Results</b>
+                    <br>
+                    <p>{{ article.results }}</p>
+                    <br>
+                </div>
+                <div class="sidebar-module sidebar-module-familiar">
+                    <br>
+                    <h4>Sound familiar?</h4>
+                    <p>Contact us today to see how we can help you manage your Saas Subscriptions</p>
+                    <br>
+                    <!-- <a type="button" target="_blank" class="btn btn-applogie-white" href="https://info.applogie.com/request-a-free-trial" role="button">FREE TRIAL</a> -->
+                    <span id="hs-cta-wrapper-9635547d-3e21-46c0-9630-7ebffcb29b36">
+                        <span id="hs-cta-9635547d-3e21-46c0-9630-7ebffcb29b36">
+                            <!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]-->
+                            <a type="button" target="_blank" class="btn btn-applogie-white" href="https://cta-redirect.hubspot.com/cta/redirect/4018109/9635547d-3e21-46c0-9630-7ebffcb29b36"
+                                target="_blank">FREE TRIAL</a>
+                        </span>
+                        <script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
+                        <script type="text/javascript">
+                            hbspt.cta.load(4018109, '9635547d-3e21-46c0-9630-7ebffcb29b36', {});
+                        </script>
+                    </span>
+                    <br>
+                </div>
+            </div>
+            <!-- /.blog-sidebar -->
+
+            {% endif %}
+            {% if article.category == 'blog' %}
+            <div class="col-lg-3 text-right blog-highlight">
+                <section class="bs4-newsletter">
+                    <h2 class="title">{{ article.title }}</h2>
+                </section>
+            </div>
+            <!-- /.blog-sidebar -->
+            <div class="col-offset-1 col-lg-8 blog-main">
+                <div class="blog-post">
+                    {{ article.content }}
+                </div>
+                <!-- /.blog-post -->
+            </div>
+            {% endif %}
+
+        </div>
+    </div>
+</article>
+<div class="request-demo color-Greenish-Teal-1">
+    <div class="container">
+        <h1>Think you pay too much for SaaS?</h1>
+        <p>Click here to schedule a demo of the platform to learn how you probably do.</p>
+        <br>
+        <!-- <a type="button" target="_blank" class="btn btn-applogie-white" href="https://info.applogie.com/request-a-free-trial" role="button">FREE TRIAL</a> -->
+        <span id="hs-cta-wrapper-9635547d-3e21-46c0-9630-7ebffcb29b36">
+            <span id="hs-cta-9635547d-3e21-46c0-9630-7ebffcb29b36">
+                <!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]-->
+                <a type="button" target="_blank" class="btn btn-applogie-white" href="https://cta-redirect.hubspot.com/cta/redirect/4018109/9635547d-3e21-46c0-9630-7ebffcb29b36"
+                    target="_blank">FREE TRIAL</a>
+            </span>
+            <script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
+            <script type="text/javascript">
+                hbspt.cta.load(4018109, '9635547d-3e21-46c0-9630-7ebffcb29b36', {});
+            </script>
+        </span>
+    </div>
+</div>
+{% endblock main %}

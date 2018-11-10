@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="72px" viewBox="0 0 42 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon / on-boarding</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="content_two_iconography" transform="translate(-781.000000, -311.000000)" stroke="#33A3AC">
+            <g id="features-wide" transform="translate(0.000000, 150.000000)">
+                <g id="feature-2" transform="translate(782.000000, 162.000000)">
+                    <g id="icon-/-on-boarding">
+                        <g>
+                            <path d="M15.4407295,58.0487805 L9.36170213,58.0487805 L9.36170213,30.5182927 C9.36170213,25.929878 12.0395137,23.2716565 13.9209726,21.3414634 L26.0790274,21.3414634 C27.9574468,23.2747154 30.6382979,25.929878 30.6382979,30.5182927 L30.6382979,58.0487805 L24.5592705,58.0487805" id="Stroke-8878" stroke-width="2"></path>
+                            <path d="M13.6170213,21.3414634 L13.6170213,12.195122 C13.6170213,8.82926829 18.0851064,0 19.5744681,0 C21.0638298,0 25.5319149,8.82926829 25.5319149,12.195122 L25.5319149,21.3414634" id="Stroke-8879" stroke-width="2"></path>
+                            <path d="M24.6808511,41.1103979 C24.6808511,38.5806932 21.5602837,35 20,35 C18.4397163,35 15.3191489,38.5806932 15.3191489,41.1103979 L15.3191489,64.0243902 L24.6808511,64.0243902 L24.6808511,41.1103979 L24.6808511,41.1103979 Z" id="Stroke-8880" stroke-width="2"></path>
+                            <path d="M9.36170213,42.6829268 C6.24113475,42.6829268 0,46.7804878 0,51.8292683 L0,64.0243902 L9.36170213,64.0243902 L9.36170213,57.9268293" id="Stroke-8881" stroke-width="2"></path>
+                            <path d="M30.6382979,42.6829268 C33.7588652,42.6829268 40,46.7804878 40,51.8292683 L40,64.0243902 L30.6382979,64.0243902 L30.6382979,57.9268293" id="Stroke-8882" stroke-width="2"></path>
+                            <polyline id="Stroke-8883" stroke-width="2" points="3.12056738 64.0243902 0 70 9.36170213 70 6.24113475 64.0243902"></polyline>
+                            <polyline id="Stroke-8884" stroke-width="2" points="18.4397163 64.0243902 15.3191489 70 24.6808511 70 21.5602837 64.0243902"></polyline>
+                            <polyline id="Stroke-8885" stroke-width="2" points="33.7588652 64.0243902 30.6382979 70 40 70 36.8794326 64.0243902"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

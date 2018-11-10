@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon / support</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="content_two_iconography" transform="translate(-766.000000, -493.000000)" stroke="#33A3AC">
+            <g id="features-wide" transform="translate(0.000000, 150.000000)">
+                <g id="feature-4" transform="translate(767.000000, 344.000000)">
+                    <g id="icon-/-support">
+                        <g>
+                            <polyline id="Stroke-490" stroke-width="2" points="20.6969658 39.4871795 0.597393162 39.4871795 0.597393162 30.5128205 20.6491026 30.5128205"></polyline>
+                            <polyline id="Stroke-491" stroke-width="2" points="39.4871795 49.2560684 39.4871795 69.4005128 30.5128205 69.4005128 30.5128205 49.2560684"></polyline>
+                            <polyline id="Stroke-492" stroke-width="2" points="49.2560684 30.5128205 69.4005128 30.5128205 69.4005128 39.4871795 49.2082051 39.4871795"></polyline>
+                            <polyline id="Stroke-493" stroke-width="2" points="30.5128205 20.6969658 30.5128205 0.597393162 39.4871795 0.597393162 39.4871795 20.7448291"></polyline>
+                            <path d="M49.957265,35 C49.957265,43.2594017 43.2594017,49.957265 35,49.957265 C26.7346154,49.957265 20.042735,43.2594017 20.042735,35 C20.042735,26.7405983 26.7346154,20.042735 35,20.042735 C43.2594017,20.042735 49.957265,26.7405983 49.957265,35 L49.957265,35 Z" id="Stroke-494" stroke-width="2"></path>
+                            <path d="M39.4871795,3.90952991 C53.2418803,5.88089744 64.1217949,16.7548291 66.0901709,30.5125214" id="Stroke-495" stroke-width="2"></path>
+                            <path d="M3.90534188,30.5128205 C5.87371795,16.7551282 16.7536325,5.88119658 30.5113248,3.90982906" id="Stroke-496" stroke-width="2"></path>
+                            <path d="M30.5128205,66.0919658 C16.7521368,64.1265812 5.87521368,53.2466667 3.90683761,39.4859829" id="Stroke-497" stroke-width="2"></path>
+                            <path d="M66.0889744,39.4871795 C64.1235897,53.2478632 53.2406838,64.1277778 39.4859829,66.0931624" id="Stroke-498" stroke-width="2"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

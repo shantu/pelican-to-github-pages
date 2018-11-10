@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="24px" viewBox="0 0 23 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon / error</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="form_support" transform="translate(-1207.000000, -1224.000000)" stroke="#ED1C28">
+            <g id="form-/-form-field-/-error" transform="translate(960.000000, 1213.000000)">
+                <g id="icon-/-error" transform="translate(247.000000, 11.000000)">
+                    <g>
+                        <path d="M22.498,11.3096 C22.604,17.3846 17.575,22.3956 11.5,22.5016 C5.426,22.6066 0.607,17.7676 0.502,11.6926 C0.396,5.6196 5.426,0.6066 11.5,0.5016 C17.574,0.3956 22.393,5.2366 22.498,11.3096 L22.498,11.3096 Z" id="Stroke-3206" stroke-linecap="round"></path>
+                        <path d="M11.5,13 L11.5,6" id="Stroke-3207" stroke-linecap="round"></path>
+                        <path d="M12,16.5 C12,16.776 11.776,17 11.5,17 C11.224,17 11,16.776 11,16.5 C11,16.224 11.224,16 11.5,16 C11.776,16 12,16.224 12,16.5 L12,16.5 Z" id="Stroke-3208"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

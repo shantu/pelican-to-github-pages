@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_HIW_step-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="[w]-3.1.1---Product---How-It-Works---Overlay" transform="translate(-225.000000, -1125.000000)" stroke-width="2.5" stroke="#33A3AC">
+            <g id="features-copy-4" transform="translate(0.000000, 838.000000)">
+                <g id="ic_HIW_step-1" transform="translate(227.000000, 289.000000)">
+                    <g id="Group-11">
+                        <g id="Group-378">
+                            <path d="M60,70.5868056 L60,56.4694444" id="Stroke-7833" stroke-linecap="round"></path>
+                            <path d="M35.34375,56.4684375 L35.34375,70.5857986 L10.1248264,79.5929167 C4.11336806,81.7427431 0.100694444,87.4370139 0.100694444,93.8160069 L0.100694444,105.828854 L60.5173611,105.828854" id="Stroke-7834" stroke-linecap="round"></path>
+                            <path d="M73.1041667,30.3090278 C73.1041667,46.9890625 61.8314236,60.5173611 47.9305556,60.5173611 C34.0246528,60.5173611 22.7569444,46.9890625 22.7569444,30.3090278 C22.7569444,13.6289931 34.0246528,0.100694444 47.9305556,0.100694444 C61.8314236,0.100694444 73.1041667,13.6289931 73.1041667,30.3090278 L73.1041667,30.3090278 Z" id="Stroke-7835"></path>
+                            <path d="M72.8680382,27.5555382 C72.0222049,27.6612674 71.4381771,27.6260243 70.587309,27.7921701 C62.0131771,29.443559 56.505191,26.3371354 51.7876562,18.0751562 C48.9531076,23.5025868 40.0970312,27.7921701 32.8268924,27.7921701 C29.2472049,27.7921701 26.1659549,27.0571007 23.0796701,25.4459896" id="Stroke-7836"></path>
+                            <polygon id="Stroke-7837" stroke-linecap="round" points="75.6819444 115.899306 115.959722 115.899306 115.959722 75.6215278 75.6819444 75.6215278"></polygon>
+                            <path d="M83.2325174,84 L108.406128,84" id="Stroke-7838" stroke-linecap="round"></path>
+                            <path d="M83.2325174,95 L108.406128,95" id="Stroke-7839" stroke-linecap="round"></path>
+                            <path d="M83.2325174,105 L100.854045,105" id="Stroke-7840" stroke-linecap="round"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

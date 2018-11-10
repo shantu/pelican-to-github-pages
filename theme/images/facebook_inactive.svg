@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_social_facebook_inactive</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="footer-/-wide" transform="translate(-1208.000000, -34.000000)">
+            <g id="icon-/-social-/-facebook-/-inactive">
+                <g transform="translate(1208.000000, 34.000000)">
+                    <g id="icon-/-social-/-facebook-/-inactive-copy">
+                        <path d="M22,44 C34.1502645,44 44,34.1502645 44,22 C44,9.8497355 34.1502645,0 22,0 C9.8497355,0 0,9.8497355 0,22 C0,34.1502645 9.8497355,44 22,44 Z" id="Oval-40" fill="#4F4F4F"></path>
+                        <path d="M23.9796789,34.0909091 L18.6588092,34.0909091 L18.6588092,21.5438709 L16,21.5438709 L16,17.2205825 L18.6588092,17.2205825 L18.6588092,14.6250258 C18.6588092,11.0982993 20.1593172,9 24.4251168,9 L27.9756147,9 L27.9756147,13.324872 L25.7565535,13.324872 C24.0959155,13.324872 23.9861817,13.9290239 23.9861817,15.0565629 L23.9788661,17.2205825 L28,17.2205825 L27.529364,21.5438709 L23.9788661,21.5438709 L23.9788661,34.0909091 L23.9796789,34.0909091 Z" id="social-/-facebook" fill="#ADADAD"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
